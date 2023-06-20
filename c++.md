@@ -1,1 +1,1 @@
-[Back](./index.html).
+[Back](./index.html)
