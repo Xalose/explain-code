@@ -1,5 +1,5 @@
 [Back](./index.html)
-
+[introduction](./introduction.html) ]
 Start with C++
 head file
 A head file is a unique characteristic of C++, it’s like a tool or a dlc for your program. Each head file contains a specific function and could help the program achieve a different purpose. For instance, an iostream head file could help C++ users to input and output. The Maths head file could help c++ to calculate different staff. This is similar to Java in that it can import other extensions to make the program more powerful.
