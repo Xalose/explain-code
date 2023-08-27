@@ -5,7 +5,7 @@ Java is an Object-oriented programming language
 # Basics
 ### Outputting to console
 ```Java
-System.out.println();
+System.out.println("This can be a string, or a number like "+13);
 ```
 ### Primitives
 |Data Type|Size|Description|
