@@ -3,5 +3,10 @@
 # Introduction
 Java is an Object-oriented programming language
 # Basics
+### Outputting to console
+```Java
+System.out.println();
+```
+
 # Methods
 # Classes
