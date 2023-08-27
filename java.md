@@ -17,6 +17,6 @@ System.out.println();
 |float|4 bytes|Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits|
 |double|8 bytes|Stores fractional numbers. Sufficient for storing 15 decimal digits|
 |boolean|1 bit|Stores true or false values|
-|char 	2 bytes|Stores a single character/letter or ASCII values|
+|char|2 bytes|Stores a single character/letter or ASCII values|
 # Methods
 # Classes
