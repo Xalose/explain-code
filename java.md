@@ -40,5 +40,19 @@ if (condition1) {
   // block of code to be executed if the condition1 is false and condition2 is false
 }
 ```
+
+### While loop
+```Java
+while (condition) {
+  // code block to be executed
+}
+```
+
+### For loop
+```Java
+for (statement 1; statement 2; statement 3) {
+  // code block to be executed
+}
+```
 # Methods
 # Classes
