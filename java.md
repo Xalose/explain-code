@@ -8,6 +8,7 @@ Java is an Object-oriented programming language
 System.out.println("This can be a string, or a number like "+13);
 ```
 ### Primitives
+
 |Data Type|Size|Description|
 |-|-|-|
 |byte|1 byte|Stores whole numbers from -128 to 127|
@@ -20,8 +21,9 @@ System.out.println("This can be a string, or a number like "+13);
 |char|2 bytes|Stores a single character/letter or ASCII values|
 
 ### Operators
+
 |Operator|Name|Description|Example|
-|-|-|-|-|
+| - | - | - | - |
 |+|Addition|Adds together two values|x + y|
 |-|Subtraction|Subtracts one value from another|x - y|
 |*|Multiplication|Multiplies two values|x * y|
