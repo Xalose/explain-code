@@ -1,7 +1,7 @@
 [Back](./index.html)
 # Python
 
-## Python intro 
+## Intro 
 
 Python is a high level programming language that is commonly used due to its simplicity and readability.
 Python is commonly used for servers to create web applications, create workflows, databases, handle big data and perform complex mathematics.
@@ -10,7 +10,7 @@ Simple syntax that is similar to the English language.
 Download VScode + python
 How to setup Python for VSCode in 2023 in 5mins! | Install Python and Setup VSCode for Windows 10 - YouTube
 
-## Python syntax 
+## Syntax 
 ### Printing
 ```Python
 print(“hello world”)
@@ -40,35 +40,31 @@ x = 5
 x = “jeff”
 print (x)
 ```
-casting
-setting a variable to a specific data type (basic ones)
-int
-float
-str 
-bool	
+### Casting
+Setting a variable to a specific data type (basic ones)
+- int
+- float
+- str 
+- bool	
+```Python
 x = str(3)
-getting data type
+```
+```Python
 x = 7
 print (type(x))
-Python data type
+```
 
+## Data Types
 
-Text Type:
-str
-Numeric Types:
-int, float, complex
-Sequence Types:
-list, tuple, range
-Mapping Type:
-dict
-Set Types:
-set, frozenset
-Boolean Type:
-bool
-Binary Types:
-bytes, bytearray, memoryview
-None Type:
-NoneType
+|-|-|
+|Text Type:|str|
+|Numeric Types:|int, float, complex|
+|Sequence Types:|list, tuple, range|
+|Mapping Type:|dict|
+|Set Types:|set, frozenset|
+|Boolean Type:|bool|
+|Binary Types:|bytes, bytearray, memoryview|
+|None Type:|NoneType|
 
 
 
