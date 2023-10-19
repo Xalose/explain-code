@@ -49,6 +49,7 @@ Setting a variable to a specific data type (basic ones)
 ```Python
 x = str(3)
 ```
+  
 ```Python
 x = 7
 print (type(x))
@@ -69,61 +70,45 @@ print (type(x))
 
 
 
-
-Python numbers 
-there are three numeric types in python
-int, float, complex 
+### Numbers 
+There are three numeric types in python: int, float, complex 
+```Python
 x = 2 #int
 y = 7.2 #float
 z = 1j #complex
-Python strings
+```
+
+### Strings
 Strings in python are surrounded by quotation marks or double quotation marks, ‘’ or “”
+```Python
+x="this is a string"
+y='this is too'
+```
 
-
-Python boolean
-boolean represents either true or false
-booleans are often used to set requirements
-example
+### Boolean
+Boolean represents either true or false
+Booleans are often used to set requirements
+```Python
 print(4>3)
 print(3>4)
-Python Operators
-arithmetic
-operator
-name
-example
-+
-addition
-x+y
--
-subtraction
-x-y
-*
-multiplication
-x*y
-/
-division
-x/y
-%
-modulus
-x%y
-//
-floor division
-x//y
+```
+### Operators
 
-assignment operators
+|Operator|Name|Example|
+|-|-|
+|+|addition|x+y|
+|-|subtraction|x-y|
+|\*|multiplication|x*y|
+|/|division|x/y|
+|%|modulus|x%y|
+|//|floor division|x//y|
 
-operator
-example
-same as
-=
-x= 5
-x=5
-+=
-x +=5
-x = x+5
--=
-x-=5
-x=x-5
+
+|Operator|Example|Same as|
+|-|-|-|
+|=|x= 5|x=5|
+|+=|x +=5|x = x+5|
+|-=|x-=5|x=x-5|
 
 
 Python casting
