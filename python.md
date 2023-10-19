@@ -56,6 +56,7 @@ print (type(x))
 
 ## Data Types
 
+|Type|Data|
 |-|-|
 |Text|str|
 |Numeric|int, float, complex|
