@@ -16,3 +16,13 @@ return 0;
 }
 
 
+
+int a=();
+char b=();
+boolean c=();
+longlong d=();
+string e=();
+double x=();
+float y=();
+
+
