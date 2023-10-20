@@ -3,11 +3,11 @@
 
 ## Intro 
 
-Python is a high level programming language that is commonly used due to its simplicity and readability.
-Python is commonly used for servers to create web applications, create workflows, databases, handle big data and perform complex mathematics.
-Python works on Windows, Mac, Linux, Raspberry Pi, etc.
-Simple syntax that is similar to the English language. 
-Download VScode + python
+Python is a high level programming language that is commonly used due to its simplicity and readability.  
+Python is commonly used for servers to create web applications, create workflows, databases, handle big data and perform complex mathematics.  
+Python works on Windows, Mac, Linux, Raspberry Pi, etc.  
+Simple syntax that is similar to the English language.   
+Download VScode + python  
 How to setup Python for VSCode in 2023 in 5mins! | Install Python and Setup VSCode for Windows 10 - YouTube
 
 ## Syntax 
@@ -41,20 +41,13 @@ x = “jeff”
 print (x)
 ```
 ### Casting
-Setting a variable to a specific data type (basic ones)
-- int
-- float
-- str 
-- bool	
+Casting is used when you want to specify a type onto a variable.  
+Python is object oriented, such that it uses classes to set data types. Python does casting by using constructor functions
 ```Python
-x = str(3)
+x = int(3.2) # x will be 3
+x = int (“3” # x will be 3
+x = int(3) # x will be 3
 ```
-  
-```Python
-x = 7
-print (type(x))
-```
-
 ## Data Types
 
 |Type|Data|
@@ -86,7 +79,7 @@ y='this is too'
 ```
 
 ### Boolean
-Boolean represents either true or false
+Boolean represents either true or false.  
 Booleans are often used to set requirements
 ```Python
 print(4>3)
@@ -111,61 +104,55 @@ print(3>4)
 |-=|x-=5|x=x-5|
 
 
-Python casting
-casting is used when you want to specify a type onto a variable.
-Python is object oriented, such that it uses classes to set data types. Python does casting by using constructor functions
-int ()
-float()
-str*()
-Example
-x = int(3.2) # x will be 3
-x = int (“3” # x will be 3
-x = int(3) # x will be 3
-Python tuple
-tuples are used to store multiple items in a single variable
-tuple is one of the built in data types in python that can be used to store multiple data
-tuples are created using round brackets
-example
+### Tuple
+Tuples are used to store multiple items in a single variable.  
+Tuples are one of the built in data types in python that can be used to store multiple data.  
+Tuples are created using round brackets.
+```Python
 thistuple = (“adidas”, “nike”, “puma”)
 print(thistuple)
-Python set
-sets also store multiple items in a single variable
-sets are created using curly brackets
-example
+```
+### Set
+Sets also store multiple items in a single variable.  
+Sets are created using curly brackets.
+```Python
 thisset = {“adidas”, “nike”, “puma”}
 print(thisset)
-Python List
-lists are used to store multiple data within one variable 
-lists are created using square brackets
-example
+```
+### List
+Lists are used to store multiple data within one variable.  
+Lists are created using square brackets.
+```Python
 thislist = [“1”,”2”,”3”]
 print(thistlist)
-Python loops
-while loops
-while loops can be executed when the conditions are true
-example
+```
+## Loops
+### While Loops
+While loops can be executed when the conditions are true.
+```Python
 x = 2
 while x<5:
 print(x)
 x +=1
-for loops
-used to iterate over a sequence 
-for loop can be executed once for each item in a list, set or array + etc
-example
+```
+### For Loops
+Used to iterate over a sequence.  
+For loop can be executed once for each item in a list, set or array + etc.  
+```Python
 shoes = [“nike”,”adidas”,”puma”]
 for x in fruits:
-print(x)
-Python functions
-using def
+  print(x)
+```
+## Functions
+```Python
 def myFunction():
 print(“hello”)
-Python if…else 
+```
+## If-Else 
 this type of conditional statement only runs when a condition is met
-for example
+```Python
 a=2
 b=3
 if a<b:
 print(“a<b”)
-Python array
-arrays are used to store multiple values in a single variable:
-computers = [“apple”,”lg”,”dell”]
+```
