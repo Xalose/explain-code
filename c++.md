@@ -8,8 +8,16 @@ If you are using Windows, download Dev C++ and start by creating new source code
 ## Start with C++
 ### header file
 A header file is a unique characteristic of C++, it’s like a tool or a dlc for your program. Each head file contains a specific function and could help the program achieve a different purpose. For instance, an iostream head file could help C++ users to input and output. The Maths head file could help c++ to calculate different staff. This is similar to Java in that it can import other extensions to make the program more powerful.
+```C++
+#include <iostream>
+#include <cmath>
+#include <windows.h>
+```
 ### name space
 name space is specific in C++ programming, it deals with the issue that when two or more programs integrate together, the system may get obscure figuring which version of the function(name) it should use. For example, in two programs, there could be a function called “wanda”, however, these two functions could be different in how they function. The function in program 1 could mean add two numbers together, program 2 could mean add a name into a name list. When integrating, the  program may not know which “wandaP” it should use during compiling, so a namespace gives the program certain space to store the name, and each function then has its own name for the program to choose to use.
+```C++
+using namespace std;
+```
 ### function
 function is the framework of C++ and is the first step for a program to complete an action. In order to run a program successfully, you need a main function where the compiler starts to compile and complete any action you want it to do. Every function should have a return in the program, if you do not need any return value you should write return 0 to let the program end. In the function, you can let the program print sth on the screen, or you can let it rank the height of students using a list of students’ heights descendingly.  It really depends on what you’ve written in the program. 
 ### variable
