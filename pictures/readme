@@ -1,1 +1,18 @@
-wda
+head file
+
+#include <iostream>
+#include <cmath>
+#include <windows.h>
+
+
+
+names space:
+using namespace std;
+
+class:
+int main(){
+
+return 0;
+}
+
+
