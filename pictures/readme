@@ -3,17 +3,22 @@ head file
 #include <iostream>
 #include <cmath>
 #include <windows.h>
-
+// this is headfiles in C++. the headfile iostream is used by the program to output any data that has previously created. 
+//the cmath is used for complex symbols for math such as log, sin, cos etc.
+//the window.h is unique in windows system due to the feature of operating system. Using this headfile could help 
+//you do actions like stop the program in a period of time.
 
 
 names space:
 using namespace std;
+// this is an example of namespace. If you want to use it than just copy the previous line
 
 class:
 int main(){
 
 return 0;
 }
+// this is the format of how to write a main class in C++, for every program to run it must have a main class.
 
 
 
@@ -24,5 +29,7 @@ longlong d=();
 string e=();
 double x=();
 float y=();
+// this is how you construct different variables. For each variables you need to define its name and datatype.
+//For example, at the first line I created a variable called a and I set its datatype as int. same with the other ones.
 
 
