@@ -23,28 +23,34 @@ SHORT 
 Double  
 Long   
 Long Long  
-### Starting with your first program
-Your first program will be a program that could output an addend of two numbers you choose. To achieve this aim, you also need to learn how to input and output in C++  
+## Starting with your first program
+Your first program will be a program that could output an addend of two numbers you choose. To achieve this aim, you also need to learn how to input and output in C++   
 In C++, we express input and output using:  
 ```C++
 cin>>n;  
 cout<<n<<”hello world”<<endl;
 ```
 The line for cin is how C++ input things. However, in C++ there isn’t a term called n, so  the program needs to know what n is and you need to announce it before by telling the program which data type the variable is and what is the exact value of it. For example:
+```C++
 int n=100;
-this line informs the program that n is a variable that is int and has a value of 100
+```
+this line informs the program that n is a variable that is int and has a value of 100  
 Similar in output, you can directly output a string type (i.e.”hello, world”), but for other data types, you also need to announce it. 
+```C++
 int n=100;
 cout<<n<<endl;
-endl is a special module for output to move into the next line, you can also use ‘\d’ in future to replace it.
-Now is the time for you to write the program step by step
+```
+endl is a special module for output to move into the next line, you can also use ‘\d’ in future to replace it.  
+Now is the time for you to write the program step by step  
 Firstly, we construct the basics of the program, in different programs there are different symbols to annotate, in C plus “//” is used to annotate the meaning of the line:
+```C++
 #include <iostream>  // this is to import iostream header file in order to input or output things
 using namespace std; // this is to include the namespace for reasons in namespace section
 int main(){   // this is the main function of C plus program 
 return 0 // each function should have at least one return
 }
-They are the basic elements of a C++ program. However, C++ could do many unbelievable things, like transfer documents from a laptop to another one, or write/read any document on your laptop. It is not easy to achieve these and it takes very long time to learn. 
+```
+They are the basic elements of a C++ program. However, C++ could do many unbelievable things, like transfer documents from a laptop to another one, or write/read any document on your laptop. It is not easy to achieve these and it takes very long time to learn.   
 Resources you might need for further study:
 “C++ primer”
 “Thinking in C++”
