@@ -3,7 +3,7 @@
 
 ## Intro 
 
-Python is a high level programming language that is commonly used due to its simplicity and readability.  
+Python is a high-level programming language that is commonly used due to its simplicity and readability.  
 Python is commonly used for servers to create web applications, create workflows, databases, handle big data and perform complex mathematics.  
 Python works on Windows, Mac, Linux, Raspberry Pi, etc.  
 Simple syntax that is similar to the English language.   
